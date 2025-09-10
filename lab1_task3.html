@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Списки</title>
+    <style>
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0 0 20px 0;
+            display: flex;
+            gap: 20px;
+        }
+        nav li {
+            display: inline;
+        }
+        nav a {
+            text-decoration: none;
+            color: #074481;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Навігація по завданнях</h1>
+    <nav>
+        <ul>
+            <li><a href="lab1_task1.html">Завдання 1</a></li>
+            <li><a href="lab1_task2.html">Завдання 2</a></li>
+            <li><a href="lab1_task3.html">Завдання 3</a></li>
+        </ul>
+    </nav>
+    
+    <h2>Списки деяких планет</h2>
+   
+    <ul class="main-list">
+        <li>Земля
+            <ol>
+                <li>Місяць</li>
+            </ol>
+        </li>
+        <li>Марс
+            <ol start="2">
+                <li>Фобос</li>
+                <li>Деймос</li>
+            </ol>
+        </li>
+        <li>Уран
+            <ol start="4">
+                <li>Аріель</li>
+                <li>Умбріель</li>
+                <li>Титанія</li>
+                <li>Оберон</li>
+                <li>Міранда</li>
+            </ol>
+        </li>
+        <li>Нептун
+            <ol start="9">
+                <li>Тритон</li>
+                <li>Нереїда</li>
+            </ol>
+        </li>
+    </ul>
+</body>
+</html>
